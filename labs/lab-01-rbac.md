@@ -1,14 +1,6 @@
-
-Home: - [🏠 Home](/index.md) 
----
-lab:
-    title: 'Role-Based Access Control'
-    CCSP Domain: 'D1. Cloud Concepts, Architecture & Design'
----
-
 # 🛡️ Lab: Role-Based Access Control
 
-**CCSP Domain:** ☁️ D1. Cloud Concepts, Architecture & Design
+### CCSP Domain: ☁️ D1. Cloud Concepts, Architecture & Design
 
 - [Lab Scenario](#lab-scenario)
 - [Lab Objectives](#lab-objectives)
