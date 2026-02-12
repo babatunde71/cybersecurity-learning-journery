@@ -30,7 +30,7 @@ This lab demonstrates how Azure users and groups are created and how role-based 
 
 ## RBAC Architecture Diagram
 
-![Diagram showing the system layout and process flow](../labs/lab-1-media/role-based-access-control-architecture-diagram.png)
+![Diagram showing the system layout and process flow](../labs/lab-01-media/role-based-access-control-architecture-diagram.png)
 
 
 ## Instructions
@@ -50,9 +50,9 @@ This lab demonstrates how Azure users and groups are created and how role-based 
    - Add Joseph Price as **owner** and **member**.
 
 
-![Creating the user and Senior Admin Group](../labs/lab-1-media/Azure-Users.png)
+![Creating the user and Senior Admin Group](../labs/lab-01-media/Azure-Users.png)
 
-![Creating the user and Junior, Senior Admin and Service Desk Group](../labs/lab-1-media/Azure-Group.png)
+![Creating the user and Junior, Senior Admin and Service Desk Group](../labs/lab-01-media/Azure-Group.png)
 
 
 ### Exercise 2: Create Junior Admins Group (PowerShell)
@@ -82,10 +82,10 @@ This lab demonstrates how Azure users and groups are created and how role-based 
     Add-AzADGroupMember -MemberUserPrincipalName $user.UserPrincipalName -TargetGroupDisplayName "Junior Admins"
     ```
 
-![List of User created via Powershell](../labs/lab-1-media/Azure-User-Powershell.png)
+![List of User created via Powershell](../labs/lab-01-media/Azure-User-Powershell.png)
 
 
-![Adding a user to Junior Admin Group](../labs/lab-1-media/Azure-Group-Junior-Admin-Powershell.png)
+![Adding a user to Junior Admin Group](../labs/lab-01-media/Azure-Group-Junior-Admin-Powershell.png)
 
 
 ### Exercise 3: Create Service Desk Group (Azure CLI)
@@ -111,7 +111,7 @@ This lab demonstrates how Azure users and groups are created and how role-based 
     az ad group member add --group "Service Desk" --member-id $OBJECTID
     ```
 
-![Created user and added to the Service Desk Group in Bash](../labs/lab-1-media/Azure-Group-Service-Desk-in-Bash.png)
+![Created user and added to the Service Desk Group in Bash](../labs/lab-01-media/Azure-Group-Service-Desk-in-Bash.png)
 
 
 ### Exercise 4: Assign Virtual Machine Contributor Role
@@ -125,9 +125,9 @@ This lab demonstrates how Azure users and groups are created and how role-based 
    - Access control (IAM) → Add role assignment → Select role & group → Review + assign.
 3. Verify access for Dylan Williams and Joseph Price under **Check Access**.
 
-![Assigning user to the VM](../labs/lab-1-media/Resource-Group-Dyla.png)
+![Assigning user to the VM](../labs/lab-01-media/Resource-Group-Dyla.png)
 
-![Assigning user to the VM](../labs/lab-1-media/Resource-Group-Joesph.png)
+![Assigning user to the VM](../labs/lab-01-media/Resource-Group-Joesph.png)
 
 
 ### Clean Up Resources
@@ -138,4 +138,4 @@ Remove-AzResourceGroup -Name "AZ500LAB01" -Force -AsJob
 ```
 
 
-![Cleaning up the labs and removing the infrastructur](../labs/lab-1-media/Removing-Resource-Group.png)
+![Cleaning up the labs and removing the infrastructur](../labs/lab-01-media/Removing-Resource-Group.png)
