@@ -10,6 +10,7 @@
 * [Exercise 2: Deploy Virtual Machines and Test Network Filters](#exercise-2-deploy-virtual-machines-and-test-network-filters)
 * [Clean Up Resources](#clean-up-resources)
 * [Lesson Learnt and Improvement](#lesson-learnt-and-improvement)
+
 ---
 
 ## Lab Scenario
