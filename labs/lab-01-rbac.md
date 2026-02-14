@@ -1,6 +1,9 @@
 # 🛡️ Lab: Role-Based Access Control
 
-### CCSP Domain: ☁️ D1. Cloud Concepts, Architecture & Design
+### CCSP Domain: 
+#### ☁️ D1. Cloud Concepts, Architecture & Design
+
+---
 
 - [Lab Scenario](#lab-scenario)
 - [Lab Objectives](#lab-objectives)

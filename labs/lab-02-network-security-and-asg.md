@@ -1,8 +1,11 @@
 
 # 🌐 Lab: Network Security Groups and Application Security Groups
 
-### CCSP Domain: ☁️ D1. Cloud Concepts, Architecture & Design
+### CCSP Domain: 
+#### ☁️ D1. Cloud Concepts, Architecture & Design
+#### 🖥️ D3. Cloud Platform & Infrastructure Security
 
+---
 * [Lab Scenario](#lab-scenario)
 * [Lab Objectives](#lab-objectives)
 * [Network & ASG Architecture Diagram](#network--asg-architecture-diagram)
@@ -370,3 +373,10 @@ Confirm the deletion in the Azure portal.
 🧪 Always test access after configuration: Setting NSG and firewall rules isn’t enough — validating connectivity ensures everything works as intended.
 
 🧩 Use ASGs for better scalability: Assigning NICs to Application Security Groups is cleaner and more scalable than managing rules per NIC. It makes the environment easier to manage as it grows.
+
+| Feature | NSG                               | ASG                            |
+| ------- | --------------------------------- | ------------------------------ |
+| Purpose | Controls traffic (security rules) | Groups VMs by role/application |
+| Active? | Yes, enforces rules               | No, just a reference for NSG   |
+| Scope   | Subnet or NIC                     | VM only                        |
+| Analogy | Traffic policeman                 | Team tag on buildings          |
