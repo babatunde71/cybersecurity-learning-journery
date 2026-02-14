@@ -13,7 +13,7 @@
 * [Exercise 2: Test Azure Firewall](#exercise-2-test-azure-firewall)
 * [Clean Up Resources](#clean-up-resources)
 * [Lesson Learnt and Improvement](#lesson-learnt-and-improvement)
-    * [ARM Template Test Toolkit - Azure Resource Manager](#toolkit-test-on-my-template-result)
+    * [ARM Template Test Toolkit - Azure Resource Manager](#arm-template-test-toolkit-azure-resource-manager)
 
 ---
 
@@ -788,7 +788,7 @@ Without UDRs, traffic bypasses the firewall.
 🧠 **Default deny is powerful**
 Once traffic flows through Azure Firewall, anything not allowed is blocked automatically.
 
-# ARM Template Test Toolkit - Azure Resource Manager: 
+# ARM Template Test Toolkit Azure Resource Manager: 
 
 The Azure Resource Manager (ARM) test toolkit checks your template for best practices and provides warnings with suggested fixes, helping you avoid common development issues.
 
